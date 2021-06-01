@@ -1,6 +1,3 @@
-#include <iostream>
-
-int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
-}
+#include "./storage/lock.h"
+#include "./transaction/txn.h"
+#include "./storage/storage.h"
